@@ -1,0 +1,17 @@
+cloud:
+  aws:
+    credentials:
+      access-key: ${access_key}
+      secret-key: ${secret_key}
+    region:
+      static: ${location}
+    sqs:
+      queue-name: ${queue_name}
+
+sns:
+  topic:
+    arn: ${arn_no}
+
+
+server:
+  port: 9010
